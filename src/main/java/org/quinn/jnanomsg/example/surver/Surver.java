@@ -6,6 +6,6 @@ import nanomsg.Socket;
 
 public class Surver extends Socket {
     public Surver() {
-        super(Nanomsg.constants.AF_SP,((Integer)Nanomsg.symbols.get("NN_RESPONDENT")).intValue());
+        super(Nanomsg.constants.AF_SP,((Integer)Nanomsg.symbols.get("NN_SURVEYOR")).intValue());
     }
 }
